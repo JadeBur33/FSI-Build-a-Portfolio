@@ -3,3 +3,64 @@
 This is an activity for FSD Lesson 1.8.2.
 
 Please refer to the Activity Guide in Canvas for directions.
+
+<!DOCTYPE html>
+<html>
+<head> 
+  <style>
+    <body> {
+      background-color: aqua;
+    }
+    </body>
+  </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>My Portfolio</title>
+    <link href="./css/styles.css"/>
+</head>
+<body> 
+  <div> 
+    <h1>Jade Burleson</h1>
+    <h2 style="color:darkorange;text-align:center;">Software Developer</h2>
+     <p>My <i>favorite</i> thing about programming is it is much more exciting than my current occupation.</p>
+     <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/most-interesting-dog-meme-1546529364.png?crop=1xw:1xh;center,top&resize=980:*"
+     alt="Picture Placeholder">
+    <h3 style="color:blueviolet;text-align:center;">About Me</h3>
+     <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo nulla facilisi nullam vehicula ipsum a arcu. Dignissim suspendisse in est ante in. Laoreet non curabitur gravida arcu ac. Sem et tortor consequat id porta nibh. Leo duis ut diam quam nulla porttitor massa id. Ac felis donec et odio pellentesque diam volutpat commodo. Elementum integer enim neque volutpat ac tincidunt vitae semper. Erat imperdiet sed euismod nisi porta lorem mollis aliquam. Commodo elit at imperdiet dui accumsan. Duis tristique sollicitudin nibh sit amet commodo nulla. Eu mi bibendum neque egestas congue quisque. Ultrices tincidunt arcu non sodales neque sodales ut etiam. Sapien nec sagittis aliquam malesuada. Sit amet consectetur adipiscing elit. Aliquam nulla facilisi cras fermentum odio.
+    </p>
+    <h3 style="color:darkgreen;text-align:center;">Projects</h3>
+     <ul>
+      <li>Project 1</li>
+      <li>Project 2</li>
+      <li>Project 3</li>
+     </ul>
+    <h3 style="color:blue;text-align:center;">Contact Me</h3>
+      <p><b>Phone:</b>786-098-3468</p>
+      <p><b>Email:</b> <a href="mailto:jade@email.com">jade@email.com</a></p>
+   </div>
+  
+    <!-- 
+      Directions:
+        1. Create a DIV element to contain the page content
+        2. Inside your DIV, create an H1 tag that contains your name as the text
+        3. Below your H1 tag, create an H2 tag that contains the content text "Software Developer"
+        4. Below your H2 tag, create an HR tag which will make a horizontal line
+        5. Create a paragraph tag and put a sentence of your choice in it. (Suggestion: "My favorite thing about programming is _______")
+        6. Make the word "favorite" italicized
+        7. Make an image tag with the src attribute linked to a picture of yourself or of a placeholder image. Make sure you make an alt attribute too!
+        8. Create an H3 tag that says "About Me"
+        9. Create a paragraph tag that contains the "lorem ipsum" text. You will need to do a search for this text - it is long!
+        10. Create an H3 tag that says "My Projects"
+        11. Create an unordered list with 3 list items that say "Project 1", "Project 2", and "Project 3"
+        12. Add another H3 that contains "Contact Me" as text
+        13. Create a paragraph that contains a fake phone number, e.g., "Phone: (202) 555-1234"
+        14. Create a link tag (<a>) with a direction to mail to a fake email address. This is done by making a regular link, but in the href attribute, put mailto:fake@email.com (this opens up your email program with the TO field already filled out-try it!)
+
+        BONUS: Try one of the following ideas if you finish early
+          - Switch out your lorem ipsum for Hipster Ipsum (https://hipsum.co/)
+          - In your contact me section, make the text "Phone:" and "Email:" bolded
+     -->
+</body>
+
+</html>
